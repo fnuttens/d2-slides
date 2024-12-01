@@ -11,8 +11,8 @@
       month: 12,
       day: 19,
     ),
-    logo: image("d2logo.svg"),
   )
+    logo: image("./assets/d2logo.svg"),
 )
 
 #set text(font: "Fira Sans", weight: "light", size: 20pt)

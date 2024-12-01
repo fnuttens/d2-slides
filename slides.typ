@@ -11,8 +11,9 @@
       month: 12,
       day: 19,
     ),
-  )
     logo: image("./assets/d2logo.svg"),
+  ),
+  config-common(show-notes-on-second-screen: right),
 )
 
 #set text(font: "Fira Sans", weight: "light", size: 20pt)
@@ -34,6 +35,28 @@
 = État de l’art
 
 == WYSIWYG
+
+#grid(
+  columns: 3,
+  column-gutter: 148pt,
+  row-gutter: 16pt,
+  align: center,
+  grid.cell(image("./assets/enterprise-architect.png")),
+  grid.cell(image("./assets/powerdesigner.png")),
+  grid.cell(image("./assets/visual-paradigm.png")),
+  grid.cell(image("./assets/excalidraw.png")),
+  grid.cell(image("./assets/ms-visio.png")),
+  grid.cell(image("./assets/yed.png")),
+)
+
+#speaker-note[
+  - Enterprise Architect
+  - Powerdesigner
+  - Visual Paradigm
+  - Excalidraw
+  - MS Visio
+  - yEd
+]
 
 == Diagram as code
 

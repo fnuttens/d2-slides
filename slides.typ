@@ -60,6 +60,22 @@
 
 == Diagram as code
 
+#grid(
+  columns: 2,
+  align: center,
+  grid.cell(image("assets/graphviz.png")),
+  grid.cell(image("assets/plantuml.png")),
+  grid.cell(image("assets/mermaid.svg", width: 45%)),
+  grid.cell(image("assets/d2logo.svg", width: 45%)),
+)
+
+#speaker-note[
+  - GraphViz
+  - PlantUML
+  - MermaidJS
+  - D2
+]
+
 == Que choisir ?
 
 #slide[

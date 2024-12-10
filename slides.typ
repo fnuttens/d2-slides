@@ -114,3 +114,26 @@
 #focus-slide[
   _The lack of ability to spacially architect a system should not block the creation of valuable documentation._
 ]
+
+= Conclusion
+
+== _I use Typst, btw_
+
+- Alternative à LaTeX prometteuse
+- Modèle _open core_ avec éditeur Web collaboratif
+- Communauté active partageant modèles et extensions
+- Écrit en Rust 🦀
+- Plus d’infos sur #link("https://typst.app/")[*typst.app*]
+
+#speaker-note[
+  - LaTeX ou Word, sur la même opposition _code_/_WYSIWYG_
+  - Extension utilisée pour écrire cette présentation : Touying
+]
+
+== Meme de circonstance
+
+#image("assets/meme.jpg", width: 100%)
+
+#focus-slide[
+  _That’s all, folks!_
+]

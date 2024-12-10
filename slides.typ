@@ -50,6 +50,9 @@
 )
 
 #speaker-note[
+  GUI classique avec disposition manuelle des éléments
+  - utilisation intensive de la souris (cliquer-glisser)
+  Exemples :
   - Enterprise Architect
   - Powerdesigner
   - Visual Paradigm
@@ -65,11 +68,6 @@
   caption: [Modélisation BPMN avec Visual Paradigm],
   numbering: none
 )
-
-#speaker-note[
-  GUI classique avec disposition manuelle des éléments
-  - utilisation intensive de la souris (cliquer-glisser)
-]
 
 ---
 
@@ -97,10 +95,15 @@
 )
 
 #speaker-note[
-  - GraphViz
-  - PlantUML
-  - MermaidJS
-  - D2
+  Objectifs :
+  - décrire l’ensemble du diag au format texte
+  - placement automatique des éléments (layout engine)
+
+  Exemples :
+  - GraphViz (1991)
+  - PlantUML (2009)
+  - MermaidJS (2014)
+  - D2 (2022)
 ]
 
 == Que choisir ?

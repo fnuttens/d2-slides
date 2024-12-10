@@ -58,6 +58,33 @@
   - yEd
 ]
 
+---
+
+#figure(
+  image("assets/visual-paradigm-bpmn.png"),
+  caption: [Modélisation BPMN avec Visual Paradigm],
+  numbering: none
+)
+
+#speaker-note[
+  GUI classique avec disposition manuelle des éléments
+  - utilisation intensive de la souris (cliquer-glisser)
+]
+
+---
+
+#figure(
+  image("assets/asciiflow.png"),
+  caption: [Bonus : ASCIIFlow],
+  numbering: none
+)
+
+#speaker-note[
+  - On commence à entrer au royaume des nerds
+  - Placement toujours manuel mais export au bête format `.txt`
+  - Approche utilisée dans les RFCs de l’IETF
+]
+
 == Diagram as code
 
 #grid(

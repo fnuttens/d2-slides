@@ -149,6 +149,17 @@
   - parfois source de distraction
 ]
 
+---
+
+Historiquement :
+- faible complexité et/ou esthétique secondaire → code
+- forte complexité et/ou esthétique soignée → WYSIWYG
+
+#speaker-note[
+  - diagramme de séquence paiement CB → code
+  - schéma d’architecture APPP présenté lors d’un audit → WYSIWYG 
+]
+
 #focus-slide[
   Il n’y a pas de mauvaise approche, que des mauvais choix.
 ]

@@ -66,7 +66,7 @@
 #figure(
   image("assets/visual-paradigm-bpmn.png"),
   caption: [Modélisation BPMN avec Visual Paradigm],
-  numbering: none
+  numbering: none,
 )
 
 ---
@@ -74,7 +74,7 @@
 #figure(
   image("assets/asciiflow.png"),
   caption: [Bonus : ASCIIFlow],
-  numbering: none
+  numbering: none,
 )
 
 #speaker-note[
@@ -104,6 +104,20 @@
   - PlantUML (2009)
   - MermaidJS (2014)
   - D2 (2022)
+]
+
+#slide[
+  Diagramme de flux avec Mermaid :
+  ```mermaid
+  flowchart TD
+    Christmas -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+  ```
+][
+  #image("assets/mermaid-shopping.png")
 ]
 
 == Que choisir ?

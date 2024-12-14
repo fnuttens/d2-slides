@@ -83,7 +83,7 @@
   - Approche utilisée dans les RFCs de l’IETF
 ]
 
-== Diagram as code
+== Langage déclaratif
 
 #grid(
   columns: 2,
@@ -95,6 +95,8 @@
 )
 
 #speaker-note[
+  aka *_Diagram as code_*
+
   Objectifs :
   - décrire l’ensemble du diag au format texte
   - placement automatique des éléments (layout engine)
@@ -136,7 +138,7 @@
   - complexité du format de données
 ][
   #meanwhile
-  Diagram as code
+  Langage déclaratif
   #pause
   #set list(marker: [✓])
   - layout auto-généré
@@ -152,11 +154,11 @@
 ---
 
 Historiquement :
-- faible complexité et/ou esthétique secondaire → code
-- forte complexité et/ou esthétique soignée → WYSIWYG
+- faible complexité et/ou esthétique secondaire → *déclaratif*
+- forte complexité et/ou esthétique soignée → *WYSIWYG*
 
 #speaker-note[
-  - diagramme de séquence paiement CB → code
+  - diagramme de séquence paiement CB → déclaratif
   - schéma d’architecture APPP présenté lors d’un audit → WYSIWYG 
 ]
 
@@ -164,10 +166,22 @@ Historiquement :
   Il n’y a pas de mauvaise approche, que des mauvais choix.
 ]
 
-= New kid on the block
+= D2
 
 #focus-slide[
   _The lack of ability to spacially architect a system should not block the creation of valuable documentation._
+]
+
+= TALA
+
+== _Layout engine?_
+
+- Logiciel responsable de la bonne disposition spaciale des éléments
+- _Nerf de la guerre_ de l’approche déclarative
+- Exemples connus : *Dagre*, *ELK*
+
+#speaker-note[
+  - Grosso modo ce qui permet de lâcher la souris et de gagner du temps
 ]
 
 = Conclusion

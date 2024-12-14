@@ -168,6 +168,57 @@ Historiquement :
 
 = D2
 
+== _New kid on the block_
+
+#slide[
+  - _#strong[D]eclarative #strong[D]iagramming_
+  - rendu public en 2022
+  - codé en Go
+  - langage déclaratif du même nom
+][
+  #figure(
+    image("assets/d2logo.svg", width: 40%),
+    caption: [Logo de D2],
+    numbering: none,
+  )
+]
+
+== Choix de conception
+
+$ "Lisibilité" > "Concision" $
+
+Mermaid :
+```mermaid
+A[(Christmas)]
+```
+
+#pause
+
+D2 :
+```d2
+A: Christmas {shape: cylinder}
+```
+
+#speaker-note[
+  - D2 est verbeux au profit d’une meilleure lisibilité
+  - Petit jeu : que va rendre ce bout de code Mermaid ?
+]
+
+---
+
+$ "Design du système" > "Design du diagramme" $
+
+- Joli par défaut
+  - _opinionated_
+- Séparation claire entre éléments du diagramme et style
+  - classes à la HTML/CSS
+  - fichier de style séparé
+
+#speaker-note[
+  - Inutile de configurer 1000 choses pour avoir un beau diagramme
+    - inconvénient : D2 a sa propre idée de ce que « beau » signifie (_opinionated_)
+]
+
 #focus-slide[
   _The lack of ability to spacially architect a system should not block the creation of valuable documentation._
 ]

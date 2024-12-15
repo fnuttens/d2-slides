@@ -276,8 +276,8 @@ $ "Design du système" > "Design du diagramme" $
 
 == Applications possibles
 
-- thèmes (`ei.d2`, `lyf.d2`, etc.)
-- séparation modèle / vue
+- Thèmes (`ei.d2`, `lyf.d2`, etc.)
+- Séparation modèle / vue
 - etc.
 
 #speaker-note[
@@ -286,8 +286,26 @@ $ "Design du système" > "Design du diagramme" $
   - favorise le partage de la documentation
 ]
 
+== De nombreuses fonctionnalités
+
+- Composition / Animation
+- Support blocs de code et Markdown
+- Diagramme spéciaux (ERD, classes, séquence, grille)
+
+À découvrir sur #link("https://d2lang.com/tour")[*d2lang.com/tour*]
+
+#speaker-note[
+  - Composition : publier PDF navigable à partir des diagrammes pour présenter ensemble d’un système
+  - Animation : mouvement lignes pointillés, alternance entre N scénarii dans un seul digramme, etc.
+]
+
 #focus-slide[
   _The lack of ability to spacially architect a system should not block the creation of valuable documentation._
+
+  #speaker-note[
+    - Terrastruct aurait pu se contenter de proposer une alternative au moins aussi bien que Mermaid
+    - Leur modèle économique _open core_ s’appuie en partie sur un _layout engine_ révolutionnaire
+  ]
 ]
 
 = TALA

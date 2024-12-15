@@ -127,12 +127,12 @@
 #slide[
   WYSIWYG
   #pause
-  #set list(marker: [✓])
+  #set list(marker: [#sym.checkmark])
   - layout précis et soigné
   - facile à prendre en main
   - accessible à tous·tes
   #pause
-  #set list(marker: [𐄂])
+  #set list(marker: [#sym.crossmark])
   - chronophage
   - modification coûteuse
   - complexité du format de données
@@ -148,13 +148,13 @@
   #meanwhile
   Langage déclaratif
   #pause
-  #set list(marker: [✓])
+  #set list(marker: [#sym.checkmark])
   - layout auto-généré
   - facilement versionnable
   - maintenance aisée
   - motivant
   #pause
-  #set list(marker: [𐄂])
+  #set list(marker: [#sym.crossmark])
   - médiocrité des moteurs de layout
   - offre réduite et peu maintenue
   - parfois source de distraction

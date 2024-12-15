@@ -211,6 +211,7 @@ A: Christmas {shape: cylinder}
 #speaker-note[
   - D2 est verbeux au profit d’une meilleure lisibilité
   - Petit jeu : que va rendre ce bout de code Mermaid ?
+  - Mermaid est très concis mais parfois cryptique…
 ]
 
 ---
@@ -227,6 +228,51 @@ $ "Design du système" > "Design du diagramme" $
   - Inutile de configurer 1000 choses pour avoir un beau diagramme
     - inconvénient : D2 a sa propre idée de ce que « beau » signifie (_opinionated_)
 ]
+
+== Exemple
+
+#slide[
+  christmas.d2
+  ```d2
+  ...@styles
+
+  Christmas.class: [emphasis; hohoho]
+  Go: Go shopping
+  LMT: Let me think {class: alt}
+  Car.icon: https://...car.png
+
+  Christmas -> Go: Get money
+  Go -> LMT
+  LMT -> Laptop: One
+  LMT -> iPhone: Two
+  LMT -> Car: Three
+  ```
+][
+  styles.d2
+  ```d2
+  classes: {
+  	hohoho: {
+  		style: {
+  			fill: "linear-gradient(#2f7336, #aa3a38)"
+  		}
+  	}
+
+  	alt: {
+  		shape: diamond
+  		style: {
+  			stroke: "#f4a261"
+  		}
+  	}
+  }
+  ```
+
+  #speaker-note[
+    - Ligne de styles omises pour l’exemple
+    - La déclaration du diagramme reste lisible
+  ]
+]
+
+#figure(image("samples/christmas.svg", width: 44%))
 
 #focus-slide[
   _The lack of ability to spacially architect a system should not block the creation of valuable documentation._

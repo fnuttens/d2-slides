@@ -274,6 +274,18 @@ $ "Design du système" > "Design du diagramme" $
 
 #figure(image("samples/christmas.svg", width: 44%))
 
+== Applications possibles
+
+- thèmes (`ei.d2`, `lyf.d2`, etc.)
+- séparation modèle / vue
+- etc.
+
+#speaker-note[
+  - diagrammes réutilisables dans différents contextes
+  - gain de temps
+  - favorise le partage de la documentation
+]
+
 #focus-slide[
   _The lack of ability to spacially architect a system should not block the creation of valuable documentation._
 ]

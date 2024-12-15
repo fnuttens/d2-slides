@@ -290,7 +290,7 @@ $ "Design du système" > "Design du diagramme" $
 
 - Composition / Animation
 - Support blocs de code et Markdown
-- Diagramme spéciaux (ERD, classes, séquence, grille)
+- Diagrammes spéciaux (ERD, classes, séquence, grille)
 
 À découvrir sur #link("https://d2lang.com/tour")[*d2lang.com/tour*]
 
@@ -314,10 +314,46 @@ $ "Design du système" > "Design du diagramme" $
 
 - Logiciel responsable de la bonne disposition spaciale des éléments
 - _Nerf de la guerre_ de l’approche déclarative
+- Problème *très complexe*
 - Exemples connus : *Dagre*, *ELK*
 
 #speaker-note[
   - Grosso modo ce qui permet de lâcher la souris et de gagner du temps
+  - Des générations de chercheurs en théorie des graphes s’y cassent les dents depuis des décennies
+  - Même le nouveau moteur développé par Terrastruct n’est pas parfait
+]
+
+== Le problème avec Dagre et ELK
+
+#figure(
+  image("assets/wiiu-dagre.svg"),
+  caption: [Architecture Wii U avec Dagre],
+  numbering: none,
+)
+
+#figure(
+  image("assets/wiiu-elk.svg"),
+  caption: [Architecture Wii U avec ELK],
+  numbering: none,
+)
+
+#speaker-note[
+  - Point commun entre Dagre et ELK : éléments vus de façon hierarchique
+  - Marche très bien quand ce qu’on représente est une hierarchie, un peu moins dans cet exemple
+]
+
+---
+
+#figure(
+  image("assets/wiiu-tala.svg"),
+  caption: [Architecture Wii U avec TALA],
+  numbering: none,
+)
+
+#speaker-note[
+  - Minimise le nombre de croisements
+  - Privilégie la symétrie
+  - Heuristiques qui visent à approcher au maximu ce qu’un humain dessinerait au tableau
 ]
 
 = Conclusion

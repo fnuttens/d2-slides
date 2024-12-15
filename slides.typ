@@ -136,6 +136,14 @@
   - chronophage
   - modification coûteuse
   - complexité du format de données
+  - source de distraction
+
+  #speaker-note[
+    - On reparlera plus tard des moteurs de layout
+    Distraction :
+    - _WYSIWYG_ – le design du diagramme prend le pas sur le design du système
+    - _Déclaratif_ – un dev peut se « perdre » dans le langage
+  ]
 ][
   #meanwhile
   Langage déclaratif
@@ -144,6 +152,7 @@
   - layout auto-généré
   - facilement versionnable
   - maintenance aisée
+  - motivant
   #pause
   #set list(marker: [𐄂])
   - médiocrité des moteurs de layout

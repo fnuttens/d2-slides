@@ -342,7 +342,7 @@ $ "Design du système" > "Design du diagramme" $
   - Marche très bien quand ce qu’on représente est une hierarchie, un peu moins dans cet exemple
 ]
 
----
+== La nouvelle alternative
 
 #figure(
   image("assets/wiiu-tala.svg"),
@@ -353,7 +353,29 @@ $ "Design du système" > "Design du diagramme" $
 #speaker-note[
   - Minimise le nombre de croisements
   - Privilégie la symétrie
-  - Heuristiques qui visent à approcher au maximu ce qu’un humain dessinerait au tableau
+  - Heuristiques qui approcher au maximu ce qu’un humain dessinerait au tableau
+]
+
+---
+
+_#strong[T]errastruct’s #strong[A]uto#strong[L]ayout #strong[A]pproach_
+
+- Code propriétaire
+- Binaire séparé de D2
+- Fonctionnalités avancées :
+  - Direction par conteneur
+  - Contraintes de positionnement
+  - _Seed_
+
+Plus d’informations sur #link("https://terrastruct.com/tala/")[*terrastruct.com/tala*]
+
+#speaker-note[
+  - D2 est totalement découplé du moteur de layout sous-jacent
+    - Il supporte Dagre, ELK et TALA
+  _Seed_ :
+  - grande composante aléatoire dans la génération du placement
+  - parfois simple changement label = changement de layout radical
+  - comme dans Minecraft, possible de passer valeur aléatoire pour influencer la génération
 ]
 
 = Conclusion

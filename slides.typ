@@ -380,6 +380,26 @@ Plus d’informations sur #link("https://terrastruct.com/tala/")[*terrastruct.co
 
 = Conclusion
 
+== Mon REX sur D2/TALA
+
+D2
+- Langage puissant pouvant exprimer des diagrammes complexes
+  - sans pour autant sacrifier lisibilité/maintenabilité
+- Nouvelles possibilités de documentation avec la composition
+- Communauté large et active
+  - #sym.tilde.eq 19 k _stars_ sur #link("https://github.com/terrastruct/d2")[*GitHub*]
+
+TALA
+- Roule sur la concurrence, _même si ça blesse mon petit cœur de libriste_
+- Rend viable l’approche déclarative pour une utilisation poussée en entreprise
+
+#speaker-note[
+  - Je compte arrêter d’utiliser D2 pour nos docs si nous n’achetons pas la licence TALA
+    - le moteur de layout est *réellement* le nerf de la guerre
+  - Terrastruct propose également un IDE dans son offre commerciale
+    - pas essayé mais pourrait être intéressant pour les non-dev
+]
+
 == _I use Typst, btw_
 
 - Alternative à LaTeX prometteuse

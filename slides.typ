@@ -400,13 +400,14 @@ TALA
     - pas essayé mais pourrait être intéressant pour les non-dev
 ]
 
-== _I use Typst, btw_
+== Ceci n’est pas un _PowerPoint_
+
+_I use #link("https://typst.app/")[*Typst*], btw_
 
 - Alternative à LaTeX prometteuse
 - Modèle _open core_ avec éditeur Web collaboratif
 - Communauté active partageant modèles et extensions
-- Écrit en Rust 🦀
-- Plus d’infos sur #link("https://typst.app/")[*typst.app*]
+- Écrit en Rust #emoji.crab
 
 #speaker-note[
   - LaTeX ou Word, sur la même opposition _code_/_WYSIWYG_
